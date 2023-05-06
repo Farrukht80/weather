@@ -2,7 +2,6 @@ import React from 'react'
 import { useContext } from 'react';
 import { Context } from '../context/context';
 import { getTemp, getTime } from '../helpers';
-import sun from '../images/sun.png'
 function City({current}) {
   const {region} = useContext(Context)
   return (

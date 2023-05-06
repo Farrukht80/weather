@@ -2,7 +2,6 @@ import React, { useContext } from 'react'
 import { MdOutlineCancel } from 'react-icons/md'
 import { Context } from '../context/context'
 import { getDay, getTemp } from '../helpers'
-import sun from '../images/sun.png'
 import Card from './Card'
 
 function Details() {
